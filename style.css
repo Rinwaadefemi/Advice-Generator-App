@@ -69,3 +69,9 @@ body {
   font-weight: 800px;
   font-family: "Manrope", sans-serif;
 }
+
+@media (max-width: 500px) {
+  .card {
+    width: 350px;
+  }
+}
