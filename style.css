@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+:root {
+  /*  Primary */
+
+  --light-cyan: hsl(193, 38%, 86%);
+  --neon-green: hsl(150, 100%, 66%);
+
+  /*  Neutral */
+
+  --grayish-blue: hsl(217, 19%, 38%);
+  --dark-grayish-blue: hsl(217, 19%, 24%);
+  --dark-blue: hsl(218, 23%, 16%);
+}
+
+body {
+  background-color: var(--dark-blue);
+}
+
+.card {
+  background-color: var(--dark-grayish-blue);
+  width: 400px;
+  margin: 150px auto;
+  position: relative;
+}
+
+.pause {
+  margin-bottom: 68px;
+}
+
+.glow {
+  background-color: var(--neon-green);
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  right: 0;
+}
+
+.glow:hover {
+  box-shadow: 0 0 10px var(--neon-green);
+}
+
+.quo {
+  color: var(--light-cyan);
+  font-size: 28px;
+  font-family: 800px;
+  font-family: "Manrope", sans-serif;
+}
+
+.adv {
+  color: var(--neon-green);
+  font-size: 12px;
+  letter-spacing: 4px;
+  font-weight: 800px;
+  font-family: "Manrope", sans-serif;
+}
